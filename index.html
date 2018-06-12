@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Información sobre el producto</h1>
+    <form action="">
+       <div>
+        <fieldset>
+                <legend>Datos básicos</legend>
+                   
+                <label for="nombre">Nombre</label> 
+                <br/>
+                <input type="text" name="nombre" id="nombre" value="" /><br/>
+               
+                <br/>
+                <label for="descripcion">Descripción</label> <br/>
+                
+                <textarea name="descripcion" id="descripcion" cols="30" rows="5"></textarea>
+                <br/>
+                    
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" />
+                <br/>
+                <br/>
+                <input type="checkbox" name="contador"  value="" id="checkbox" /> 
+                <labelfor="checkbox">añadir control de vistas</label>
+         </fieldset>
+        </div>
+        <div>
+         <fieldset>
+                <legend>Datos Economicos</legend>
+                
+                <label for="precio">Precio</label> 
+                <input type="text" name="precio"  id="precio" value=""/> &euro;
+                <label for="impuestos">Impuestos</label> 
+                <select id="impuestos" name="impuestos">
+                    <option value="">impuesto no definido</option>
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </select>
+                <br/>
+                <br/>
+                <label for"promocion">Promoción</label>
+                <br/>
+                <input type="radio" name="promocion" value="ninguno" checked="checked" /> 
+                <label for"ninguno">ninguno</label> <br/>
+                
+                <input type="radio" name="promocion" value="portes" /> 
+                <label for"transporte">transporte gratuito</label><br/>
+                
+                <input type="radio" name="promocion" value="descuento" /> 
+                <label for"descuento">descuento 5%</label>
+            </fieldset>
+            </div>
+                        
+</body>
+</html>
